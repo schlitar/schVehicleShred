@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+.notification-box {
+    position: absolute;
+    display: none;
+    right: 3vw;
+    bottom: 3vw;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #242424;
+    animation: Opacity;
+    animation-duration: 1.2s;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #FFF, 0 0 30px #FFF,
+    0 0 40px #FFF, 0 0 50px #FFF;
+    -webkit-animation: blink 0.7s infinite alternate;
+    animation: blink 0.7s infinite alternate;
+}
+
+.notification-title {
+    padding-top: 0.4vw;
+    padding-left: 1vw;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2.5vh;
+    color: #FFF;
+}
+
+.notification-description {
+    padding-left: 1vw;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2vh;
+    color: #FFF;
+}
+
+.notification-message {
+    padding-top: 0vw;
+    padding-left: 0.5vw;
+}
+
+.notification-message p {
+    text-align: center;
+    width: 95%;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 2vh;
+    white-space: normal;
+    color: #FFF;
+}
